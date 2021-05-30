@@ -1,0 +1,18 @@
+<mat-form-field appearance="standard">
+  <mat-label></mat-label>
+  <mat-date-range-input [rangePicker]="dateRangePicker">
+    <input matStartDate
+      placeholder="Start date"
+      #dateRangeStart>
+    <input matEndDate
+      placeholder="End date"
+      #dateRangeEnd
+      (dateChange)="dateRangeChange(dateRangeStart, dateRangeEnd)">
+  </mat-date-range-input>
+  <mat-datepicker-toggle matPrefix
+    [for]="dateRangePicker">
+  </mat-datepicker-toggle>
+  <mat-date-range-picker #dateRangePicker></mat-date-range-picker>
+</mat-form-field>
+<br>
+<button type="submit" (click)="writeUserData()">Send</button>

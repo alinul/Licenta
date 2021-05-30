@@ -1,0 +1,13 @@
+<button (click)="openModal()" style="margin-bottom: 10px;">Request Days Off</button>
+<br>
+<app-modal-cerere *ngIf="dateService.showModal.getValue() == 1"></app-modal-cerere>
+<div class="main-div">
+<div *ngFor="let item of usersArray;">
+    <div class="user">
+        {{item}}
+    </div>
+    <br>
+    <app-calendar-row [users]="item"></app-calendar-row>
+</div>
+
+

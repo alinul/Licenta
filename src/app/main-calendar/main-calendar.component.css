@@ -1,0 +1,12 @@
+.user {
+    position: fixed;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.main-div {
+    width: 6500px; 
+}

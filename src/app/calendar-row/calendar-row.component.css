@@ -1,0 +1,40 @@
+.main-row{    
+    width: 6050px;  
+    border: black 1px;
+    border-style: solid;
+    margin-bottom: 30px; 
+}
+
+.month{
+    background-color: cadetblue;   
+    width: 500px;
+    border: black 1px;
+    border-style: solid;
+    margin: 2px;
+    display: inline-block;
+}
+
+.month-name {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.days {
+    width: 30px;
+    height: 30px;
+    border: black 1px;
+    border-style: solid;
+    text-align: center;
+    display: table-cell;
+
+}
+
+.user {
+    position: fixed;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
